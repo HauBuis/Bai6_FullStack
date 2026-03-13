@@ -1,6 +1,6 @@
 import React from "react";
 
-function ProductCard({ product }) {
+function ProductCard({ product, onAdd }) {
   return (
     <div className="product-card">
       <img
@@ -14,6 +14,9 @@ function ProductCard({ product }) {
       <p className="price">
         {new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND', minimumFractionDigits: 0 }).format(product.price)}
       </p>
+      <button className="add-to-cart" onClick={() => onAdd(product)}>
+        Add to Cart
+      </button>
     </div>
   );
 }

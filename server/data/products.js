@@ -2,6 +2,7 @@ const products = [
   {
     id: 1,
     name: "Hoa Hồng",
+    category: "Roses",
     description: "Hoa hồng đỏ tươi, biểu tượng của tình yêu",
     price: 200000,
     image: "/images/rose.jpg",
@@ -9,6 +10,7 @@ const products = [
   {
     id: 2,
     name: "Hoa Cẩm Tú Cầu",
+    category: "Hydrangea",
     description: "Hoa cẩm tú cầu hương thơm dễ chịu",
     price: 220000,
     image: "/images/CamTuCau.jpg",
@@ -16,6 +18,7 @@ const products = [
   {
     id: 3,
     name: "Hoa Ly",
+    category: "Lily",
     description: "Hoa ly trắng tinh khôi, sang trọng",
     price: 250000,
     image: "/images/Hoa1.jpg",
@@ -23,6 +26,7 @@ const products = [
   {
     id: 4,
     name: "Hoa Tulip",
+    category: "Tulips",
     description: "Hoa tulip nhiều màu sắc rực rỡ",
     price: 180000,
     image: "/images/Hoa 2.jpg",
@@ -30,6 +34,7 @@ const products = [
   {
     id: 5,
     name: "Hoa Sen",
+    category: "Lotus",
     description: "Hoa sen trắng tinh khôi, thanh cao",
     price: 300000,
     image: "/images/HoaSen.jpg",
